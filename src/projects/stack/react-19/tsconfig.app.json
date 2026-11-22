@@ -22,7 +22,7 @@
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
 
-    /* Alisa */
+    /* Alias */
     "paths": {
       "@app/*": ["./src/app/*"],
       "@entities/*": ["./src/entities/*"],
