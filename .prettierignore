@@ -1,8 +1,18 @@
+# build output
 dist/
-node_modules/
+build/
+out/
 .next/
 .turbo/
-next-env.d
+
+# dependencies
+node_modules/
+
+# generated
+next-env.d.ts
+*.tsbuildinfo
 coverage/
+
+# lockfiles (generated, one big line)
+package-lock.yaml
 pnpm-lock.yaml
-.pnpm-store/
