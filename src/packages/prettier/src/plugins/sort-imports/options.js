@@ -8,6 +8,7 @@ export default {
 
     '^@workspace/(.*)$',
 
+    '^@app/(.*)$',
     '^@entities/(.*)$',
     '^@features/(.*)$',
     '^@pages/(.*)$',
