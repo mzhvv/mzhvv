@@ -3,20 +3,16 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "build": "turbo build",
     "dev": "turbo dev",
+    "build": "turbo build",
+    "start": "turbo start",
     "lint": "turbo lint",
-    "format": "turbo format",
     "typecheck": "turbo typecheck",
-    "ui:sync": "node src/packages/react-ui/shadcn/radix/scripts/sync-exports.mjs"
-  },
-  "devDependencies": {
-    "prettier": "^3.10.1",
-    "prettier-plugin-tailwindcss": "^0.8.1",
-    "turbo": "^2.11.11"
+    "check": "turbo check"
   },
   "packageManager": "pnpm@11.25.0",
-  "engines": {
-    "node": ">=20.9.0"
+  "devDependencies": {
+    "prettier": "^3.10.1",
+    "turbo": "^2.11.11"
   }
 }

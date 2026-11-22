@@ -16,6 +16,13 @@
     "typecheck": {
       "dependsOn": ["^typecheck"]
     },
+    "check": {
+      "dependsOn": ["lint", "typecheck"]
+    },
+    "start": {
+      "cache": false,
+      "persistent": true
+    },
     "dev": {
       "cache": false,
       "persistent": true
