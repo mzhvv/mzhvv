@@ -1,6 +1,6 @@
 packages:
-  - "apps/*"
-  - "packages/*"
+  - "src/projects/*/**"
+  - "src/packages/*/**"
 
 allowBuilds:
   esbuild: true
