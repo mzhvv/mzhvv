@@ -2,6 +2,7 @@
   "name": "@workspace/prettier",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "exports": {
     ".": {
       "types": "./src/index.d.ts",
@@ -11,9 +12,21 @@
       "types": "./src/config.d.ts",
       "default": "./src/config.js"
     },
-    "./plugin-tailwindcss": {
-      "types": "./src/plugin-tailwindcss.d.ts",
-      "default": "./src/plugin-tailwindcss.js"
+    "./plugins/tailwindcss/name": {
+      "types": "./src/plugins/tailwindcss/name.d.ts",
+      "default": "./src/plugins/tailwindcss/name.js"
+    },
+    "./plugins/tailwindcss/options": {
+      "types": "./src/plugins/tailwindcss/options.d.ts",
+      "default": "./src/plugins/tailwindcss/options.js"
+    },
+    "./plugins/sort-imports/name": {
+      "types": "./src/plugins/sort-imports/name.d.ts",
+      "default": "./src/plugins/sort-imports/name.js"
+    },
+    "./plugins/sort-imports/options": {
+      "types": "./src/plugins/sort-imports/options.d.ts",
+      "default": "./src/plugins/sort-imports/options.js"
     }
   },
   "files": [
@@ -24,15 +37,20 @@
     "format": "./bin/format.js"
   },
   "devDependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "^4.7.0",
     "prettier": "^3.10.1",
     "prettier-plugin-tailwindcss": "^0.8.1"
   },
   "peerDependencies": {
+    "@ianvs/prettier-plugin-sort-imports": ">=4.7.0",
     "prettier": ">=3.10.10",
     "prettier-plugin-tailwindcss": ">=0.8.1"
   },
   "peerDependenciesMeta": {
     "prettier-plugin-tailwindcss": {
+      "optional": true
+    },
+    "@ianvs/prettier-plugin-sort-imports": {
       "optional": true
     }
   }

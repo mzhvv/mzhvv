@@ -1,10 +1,9 @@
 #!/usr/bin/env node
 
 // src/packages/prettier-config/bin/format.js
-
 import { execSync } from 'node:child_process';
-import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
