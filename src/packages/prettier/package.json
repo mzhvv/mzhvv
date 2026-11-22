@@ -2,7 +2,6 @@
   "name": "@workspace/prettier",
   "version": "0.1.0",
   "private": true,
-  "type": "module",
   "exports": {
     ".": {
       "types": "./src/index.d.ts",
@@ -17,7 +16,10 @@
       "default": "./src/plugin-tailwindcss.js"
     }
   },
-  "files": ["src", "bin/format.js"],
+  "files": [
+    "src",
+    "bin/format.js"
+  ],
   "bin": {
     "format": "./bin/format.js"
   },

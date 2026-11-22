@@ -1,8 +1,10 @@
+// @ts-check
+/** @type {import("prettier").Config} */
 export default {
-  endOfLine: "lf",
+  endOfLine: 'lf',
   semi: true,
   singleQuote: true,
   tabWidth: 2,
-  trailingComma: "es5",
+  trailingComma: 'all',
   printWidth: 100,
-}
+};
