@@ -12,6 +12,7 @@
   },
   "packageManager": "pnpm@11.25.0",
   "devDependencies": {
+    "@workspace/prettier": "workspace:*",
     "prettier": "^3.10.1",
     "turbo": "^2.11.13"
   }
