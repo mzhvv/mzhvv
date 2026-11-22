@@ -21,6 +21,11 @@
     },
     "start": {
       "cache": false,
+      "persistent": true,
+      "with": ["preview"]
+    },
+    "preview": {
+      "cache": false,
       "persistent": true
     },
     "dev": {
