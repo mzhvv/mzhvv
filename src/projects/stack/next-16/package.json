@@ -12,7 +12,7 @@
     "check": "pnpm lint && pnpm typecheck"
   },
   "engines": {
-    "node": ">=20.11"
+    "node": ">=20.19"
   },
   "dependencies": {
     "next": "16.4.6",
@@ -27,6 +27,6 @@
     "eslint": "^9",
     "eslint-config-next": "16.4.6",
     "tailwindcss": "4.3.3",
-    "typescript": "^5"
+    "typescript": "^5.9.3"
   }
 }
