@@ -1,9 +1,9 @@
-import type { ComponentType } from "react"
+import type { ComponentType } from 'react';
 
 export type RouteModule = Partial<{
-  Page: ComponentType
-  Layout: ComponentType<{ children?: React.ReactNode }>
-}>
+  Page: ComponentType;
+  Layout: ComponentType<{ children?: React.ReactNode }>;
+}>;
 
 // export type RouteModule<
 //   PageProps extends object = Record<string, unknown>,

@@ -3,20 +3,22 @@
 /** @type {import('@ianvs/prettier-plugin-sort-imports').PluginConfig} */
 export default {
   importOrder: [
-    '<BUILTIN_MODULES>', // node:fs, node:path
-    '<THIRD_PARTY_MODULES>', // react, lodash и всё, что не попало в другие группы
+    '<BUILTIN_MODULES>',
+    '<THIRD_PARTY_MODULES>',
 
-    '^@workspace/(.*)$', // монорепо-пакеты
-    '^@entities/(.*)$', // FSD-слои
+    '^@workspace/(.*)$',
+
+    '^@entities/(.*)$',
     '^@features/(.*)$',
     '^@pages/(.*)$',
     '^@shared/(.*)$',
     '^@widgets/(.*)$',
-    '^@/(.*)$', // общий alias
+    '^@/(.*)$',
 
-    '^[./]', // относительные
-    String.raw`\.css$`, // CSS в конец
+    String.raw`^[./](?!.*\.css$)`,
+    String.raw`\.css$`,
     // '',
   ],
+  importOrderSafeSideEffects: [String.raw`\.css$`],
   importOrderTypeScriptVersion: '5.9.3',
 };

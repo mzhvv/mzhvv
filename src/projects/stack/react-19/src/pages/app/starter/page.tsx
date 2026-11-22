@@ -1,11 +1,11 @@
-import { useState } from "react"
-import heroImg from "@shared/assets/hero.png"
-import reactLogo from "@shared/assets/react.svg"
-import viteLogo from "@shared/assets/vite.svg"
-import "./current.css"
+import { useState } from 'react';
+import heroImg from '@shared/assets/hero.png';
+import reactLogo from '@shared/assets/react.svg';
+import viteLogo from '@shared/assets/vite.svg';
+import './current.css';
 
 export default function StarterPage() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
@@ -96,5 +96,5 @@ export default function StarterPage() {
       <div className="ticks"></div>
       <section id="spacer"></section>
     </>
-  )
+  );
 }

@@ -3,5 +3,5 @@ export default function HomePage() {
     <div>
       <h1>react-19</h1>
     </div>
-  )
+  );
 }
