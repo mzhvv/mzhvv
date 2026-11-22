@@ -30,12 +30,8 @@
     }
   },
   "files": [
-    "src",
-    "bin/format.js"
+    "src"
   ],
-  "bin": {
-    "format": "./bin/format.js"
-  },
   "devDependencies": {
     "@ianvs/prettier-plugin-sort-imports": "^4.7.0",
     "prettier": "^3.10.1",

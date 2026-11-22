@@ -6,10 +6,10 @@
     "dev": "turbo dev",
     "build": "turbo build",
     "start": "turbo start",
+    "format": "turbo format",
     "lint": "turbo lint",
     "typecheck": "turbo typecheck",
-    "check": "turbo check",
-    "format": "format"
+    "check": "turbo check"
   },
   "packageManager": "pnpm@11.25.0",
   "devDependencies": {
