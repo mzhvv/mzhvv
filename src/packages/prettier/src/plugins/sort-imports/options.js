@@ -1,14 +1,7 @@
 // @ts-check
 
 /**
- * @typedef {{
- *   importOrder?: string[];
- *   importOrderTypeScriptVersion?: string;
- *   importOrderParserPlugins?: string[];
- *   importOrderSeparation?: boolean;
- *   importOrderSortSpecifiers?: boolean;
- *   importOrderCaseInsensitive?: boolean;
- * }} SortImportsConfig
+ * @typedef {import('@ianvs/prettier-plugin-sort-imports').PluginConfig} SortImportsConfig
  */
 
 /** @type {SortImportsConfig} */
@@ -24,8 +17,6 @@ const config = {
     '^[./]',
   ],
   importOrderTypeScriptVersion: '5.0.0',
-  importOrderSeparation: true,
-  importOrderSortSpecifiers: true,
 };
 
 export default config;
