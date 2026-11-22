@@ -11,6 +11,9 @@
     "typecheck": "tsc --noEmit",
     "check": "pnpm lint && pnpm typecheck"
   },
+  "engines": {
+    "node": ">=20.11"
+  },
   "dependencies": {
     "next": "16.4.6",
     "react": "19.3.0",
