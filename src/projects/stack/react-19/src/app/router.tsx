@@ -1,24 +1,22 @@
-import type { RouteObject } from "react-router"
-import { createBrowserRouter } from "react-router"
-
-import Main from "@pages/main"
-import Home from "@pages/home"
-import Starter from "@pages/starter"
+import Home from '@pages/home';
+import Main from '@pages/main';
+import Starter from '@pages/starter';
+import { createBrowserRouter, type RouteObject } from 'react-router';
 
 const routes = [
   {
     element: <Main.Layout />,
     children: [
       {
-        path: "/",
+        path: '/',
         element: <Home.Page />,
       },
       {
-        path: "starter",
+        path: 'starter',
         element: <Starter.Page />,
       },
     ],
   },
-] satisfies RouteObject[]
+] satisfies RouteObject[];
 
-export const router = createBrowserRouter(routes)
+export const router = createBrowserRouter(routes);
