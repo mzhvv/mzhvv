@@ -8,7 +8,7 @@
     "start": "turbo start",
     "lint": "turbo lint",
     "typecheck": "turbo typecheck",
-    "check": "turbo check --filter=!@workspace/typescript-config --filter=!@workspace/eslint-config"
+    "check": "turbo check"
   },
   "packageManager": "pnpm@11.25.0",
   "devDependencies": {
