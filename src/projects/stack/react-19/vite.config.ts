@@ -10,7 +10,7 @@ export default defineConfig({
       "@app": path.resolve(import.meta.dirname, "./src/app"),
       "@entities": path.resolve(import.meta.dirname, "./src/entities"),
       "@features": path.resolve(import.meta.dirname, "./src/features"),
-      "@pages": path.resolve(import.meta.dirname, "./src/pages"),
+      "@pages": path.resolve(import.meta.dirname, "./src/pages/app"),
       "@shared": path.resolve(import.meta.dirname, "./src/shared"),
       "@widgets": path.resolve(import.meta.dirname, "./src/widgets"),
       "@": path.resolve(import.meta.dirname, "./src"),
