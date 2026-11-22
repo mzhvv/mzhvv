@@ -1,3 +1,3 @@
-export default function AppLayout({ children }: LayoutProps<"/">) {
-  return <>{children}</>
+export default function AppLayout({ children }: LayoutProps<'/'>) {
+  return <>{children}</>;
 }

@@ -11,7 +11,7 @@
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
     "check": "pnpm lint && pnpm typecheck",
-    "format": "prettier --write ."
+    "format": "format"
   },
   "engines": {
     "node": ">=20.19"

@@ -9,7 +9,8 @@
     "preview": "pnpm start",
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
-    "check": "pnpm lint && pnpm typecheck"
+    "check": "pnpm lint && pnpm typecheck",
+    "format": "format"
   },
   "engines": {
     "node": ">=20.19"

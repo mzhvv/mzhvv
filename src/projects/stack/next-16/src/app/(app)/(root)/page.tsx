@@ -3,5 +3,5 @@ export default function HomePage() {
     <div>
       <h1>next-10</h1>
     </div>
-  )
+  );
 }

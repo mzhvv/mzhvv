@@ -8,7 +8,8 @@
     "start": "turbo start",
     "lint": "turbo lint",
     "typecheck": "turbo typecheck",
-    "check": "turbo check"
+    "check": "turbo check",
+    "format": "format"
   },
   "packageManager": "pnpm@11.25.0",
   "devDependencies": {
