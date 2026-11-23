@@ -1,1 +1,6 @@
 @import '@workspace/ui-shadcn-base/globals.css';
+
+@theme inline {
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
+}

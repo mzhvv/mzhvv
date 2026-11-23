@@ -1,6 +1,11 @@
 @import '@workspace/ui-shadcn-radix/globals.css';
 
-@theme inline {
+:root {
   --font-sans: 'Inter Variable', ui-sans-serif, system-ui, sans-serif;
   --font-mono: 'JetBrains Mono Variable', ui-monospace, monospace;
+}
+
+@theme inline {
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
 }
