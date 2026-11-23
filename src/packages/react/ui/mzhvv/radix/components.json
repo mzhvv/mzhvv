@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "new-york",
+  "rsc": true,
+  "tsx": true,
+  "tailwind": {
+    "config": "",
+    "css": "src/styles/globals.css",
+    "baseColor": "neutral",
+    "cssVariables": true
+  },
+  "iconLibrary": "lucide",
+  "aliases": {
+    "ui": "@workspace/ui-shadcn-radix/components",
+    "components": "@workspace/ui-shadcn-radix/blocks",
+    "utils": "@workspace/ui-shadcn-radix/lib/utils",
+    "lib": "@workspace/ui-shadcn-radix/lib",
+    "hooks": "@workspace/ui-shadcn-radix/hooks"
+  },
+  "rtl": false,
+  "menuColor": "default",
+  "menuAccent": "subtle"
+}
