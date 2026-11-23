@@ -1,5 +1,5 @@
 {
-  "name": "@workspace/ui-shadcn-radix",
+  "name": "@workspace/ui-mzhvv-radix",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -27,8 +27,7 @@
     "./utils": {
       "types": "./src/lib/utils.ts",
       "default": "./src/lib/utils.ts"
-    },
-    "./globals.css": "./src/styles/globals.css"
+    }
   },
   "files": [
     "src"
@@ -52,6 +51,7 @@
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "@ianvs/prettier-plugin-sort-imports": "^4.7.0",
+    "@workspace/ui-shadcn-radix": "workspace:*",
     "@tailwindcss/node": "^4.3.5",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
