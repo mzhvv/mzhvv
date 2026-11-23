@@ -9,7 +9,7 @@
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
     "check": "pnpm lint && pnpm typecheck",
-    "format": "prettier --write ."
+    "format": "prettier --write . --ignore-path ../../../../.prettierignore"
   },
   "engines": {
     "node": ">=20.19"
