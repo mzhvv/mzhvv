@@ -1,12 +1,11 @@
-import { Button } from '@workspace/ui-shadcn-radix/components/button';
-
 export default function HomePage() {
   return (
-    <div className="flex min-h-svh flex-col items-center justify-center">
-      <h1>react-19</h1>
-      <div>
-        <Button>button</Button>
-      </div>
-    </div>
+    <main className="flex min-h-svh flex-col">
+      <section className="flex grow flex-col items-center justify-center p-2 *:p-2">
+        <div>
+          <h1>react-19</h1>
+        </div>
+      </section>
+    </main>
   );
 }

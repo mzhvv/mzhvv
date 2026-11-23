@@ -1,4 +1,4 @@
-import { Button } from '@workspace/ui-shadcn-radix/components/button';
+import { Button } from '@workspace/ui-shadcn-base/components/button';
 
 export default function HomePage() {
   return (

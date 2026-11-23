@@ -172,9 +172,9 @@ importers:
 
   src/projects/stack/next-16:
     dependencies:
-      '@workspace/ui-shadcn-radix':
+      '@workspace/ui-shadcn-base':
         specifier: workspace:*
-        version: link:../../../packages/react/ui/shadcn/radix
+        version: link:../../../packages/react/ui/shadcn/base
       next:
         specifier: 16.4.6
         version: 16.4.6(@babel/core@8.1.2)(@types/node@20.19.43)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
