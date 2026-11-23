@@ -1,5 +1,5 @@
 {
-  "name": "@workspace/shadcn-radix",
+  "name": "@workspace/ui-shadcn-radix",
   "version": "0.1.0",
   "private": true,
   "type": "module",
