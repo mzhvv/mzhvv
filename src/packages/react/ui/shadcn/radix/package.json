@@ -1,5 +1,5 @@
 {
-  "name": "@workspace/shadcn-ui",
+  "name": "@workspace/shadcn-radix",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -28,7 +28,7 @@
   "scripts": {
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
-    "format": "prettier --write . --ignore-path ../../../.prettierignore",
+    "format": "prettier --write . --ignore-path ../../../../../../.prettierignore",
     "check": "pnpm lint && pnpm typecheck"
   },
   "peerDependencies": {
