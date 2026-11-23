@@ -6,7 +6,7 @@
     "dev": "turbo dev",
     "build": "turbo build",
     "start": "turbo start",
-    "format": "turbo format",
+    "format": "prettier --write .",
     "lint": "turbo lint",
     "typecheck": "turbo typecheck",
     "check": "turbo check"

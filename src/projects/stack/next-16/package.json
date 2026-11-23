@@ -8,8 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
-    "check": "pnpm lint && pnpm typecheck",
-    "format": "prettier --write . --ignore-path ../../../../.prettierignore"
+    "check": "pnpm lint && pnpm typecheck"
   },
   "engines": {
     "node": ">=20.19"

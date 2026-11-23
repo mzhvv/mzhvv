@@ -36,7 +36,6 @@
   "scripts": {
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
-    "format": "prettier --write . --ignore-path ../../../../../../.prettierignore",
     "check": "pnpm lint && pnpm typecheck"
   },
   "peerDependencies": {
