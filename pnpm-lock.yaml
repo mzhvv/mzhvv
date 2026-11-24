@@ -72,6 +72,9 @@ importers:
       '@workspace/prettier':
         specifier: workspace:*
         version: link:../../../../prettier
+      '@workspace/ui-shadcn-radix':
+        specifier: workspace:*
+        version: link:../../shadcn/radix
       eslint:
         specifier: ^10.14.0
         version: 10.15.0(jiti@2.7.0)(supports-color@7.2.0)
@@ -300,6 +303,9 @@ importers:
       '@tailwindcss/vite':
         specifier: ^4.3.5
         version: 4.3.5(vite@8.3.8(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0))
+      '@workspace/ui-mzhvv-radix':
+        specifier: workspace:*
+        version: link:../../../packages/react/ui/mzhvv/radix
       '@workspace/ui-shadcn-radix':
         specifier: workspace:*
         version: link:../../../packages/react/ui/shadcn/radix
