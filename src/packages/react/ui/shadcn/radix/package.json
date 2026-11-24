@@ -49,6 +49,7 @@
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "@ianvs/prettier-plugin-sort-imports": "^4.7.0",
+    "@workspace/ui-mzhvv-radix": "workspace:*",
     "@tailwindcss/node": "^4.3.5",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
