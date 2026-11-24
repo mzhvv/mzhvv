@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@workspace/ui-shadcn-base": "workspace:*",
+    "cn": "^0.5.2",
     "next": "16.4.6",
     "react": "19.3.0",
     "react-dom": "19.3.0"

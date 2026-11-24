@@ -251,6 +251,9 @@ importers:
       '@workspace/ui-shadcn-base':
         specifier: workspace:*
         version: link:../../../packages/react/ui/shadcn/base
+      cn:
+        specifier: ^0.5.2
+        version: 0.5.2
       next:
         specifier: 16.4.6
         version: 16.4.6(@babel/core@8.1.2)(@types/node@20.19.43)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
