@@ -12,7 +12,7 @@
   "iconLibrary": "lucide",
   "aliases": {
     "ui": "@workspace/ui-shadcn-radix/components",
-    "components": "@workspace/ui-mzhvv-radix/blocks",
+    "components": "@workspace/ui-shadcn-radix/blocks",
     "utils": "@workspace/ui-shadcn-radix/lib/utils",
     "lib": "@workspace/ui-shadcn-radix/lib",
     "hooks": "@workspace/ui-shadcn-radix/hooks"

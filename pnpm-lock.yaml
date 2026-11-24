@@ -215,9 +215,6 @@ importers:
       '@workspace/prettier':
         specifier: workspace:*
         version: link:../../../../prettier
-      '@workspace/ui-mzhvv-radix':
-        specifier: workspace:*
-        version: link:../../mzhvv/radix
       eslint:
         specifier: ^10.14.0
         version: 10.15.0(jiti@2.7.0)(supports-color@7.2.0)

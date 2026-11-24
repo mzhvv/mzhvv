@@ -13,10 +13,6 @@ import {
   SquareTerminal,
 } from 'lucide-react';
 import * as React from 'react';
-import { NavMain } from '@workspace/ui-mzhvv-radix/blocks/nav-main';
-import { NavProjects } from '@workspace/ui-mzhvv-radix/blocks/nav-projects';
-import { NavUser } from '@workspace/ui-mzhvv-radix/blocks/nav-user';
-import { TeamSwitcher } from '@workspace/ui-mzhvv-radix/blocks/team-switcher';
 import {
   Sidebar,
   SidebarContent,
@@ -24,6 +20,10 @@ import {
   SidebarHeader,
   SidebarRail,
 } from '@workspace/ui-shadcn-radix/components/sidebar';
+import { NavMain } from './nav-main';
+import { NavProjects } from './nav-projects';
+import { NavUser } from './nav-user';
+import { TeamSwitcher } from './team-switcher';
 
 // This is sample data.
 const data = {
