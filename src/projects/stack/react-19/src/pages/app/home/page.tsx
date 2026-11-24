@@ -1,5 +1,3 @@
-import { Button } from '@workspace/ui-mzhvv-radix/components/button';
-
 export default function HomePage() {
   return (
     <main className="flex min-h-svh flex-col">
@@ -7,10 +5,6 @@ export default function HomePage() {
         <div>
           <h1>react-19</h1>
         </div>
-      </section>
-
-      <section>
-        <Button />
       </section>
     </main>
   );

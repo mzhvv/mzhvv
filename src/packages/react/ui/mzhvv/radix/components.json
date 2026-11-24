@@ -5,7 +5,7 @@
   "tsx": true,
   "tailwind": {
     "config": "",
-    "css": "../../shadcn/radix/src/styles/globals.css",
+    "css": "@workspace/ui-shadcn-radix/global.css",
     "baseColor": "neutral",
     "cssVariables": true
   },
