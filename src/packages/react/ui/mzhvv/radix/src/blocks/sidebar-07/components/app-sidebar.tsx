@@ -13,10 +13,10 @@ import {
   SquareTerminal,
 } from 'lucide-react';
 import * as React from 'react';
-import { NavMain } from '@workspace/ui-mzhvv-radix/blocks/sidebar-07/components/nav-main';
-import { NavProjects } from '@workspace/ui-mzhvv-radix/blocks/sidebar-07/components/nav-projects';
-import { NavUser } from '@workspace/ui-mzhvv-radix/blocks/sidebar-07/components/nav-user';
-import { TeamSwitcher } from '@workspace/ui-mzhvv-radix/blocks/sidebar-07/components/team-switcher';
+import { NavMain } from '@workspace/ui-mzhvv-radix/blocks/nav-main';
+import { NavProjects } from '@workspace/ui-mzhvv-radix/blocks/nav-projects';
+import { NavUser } from '@workspace/ui-mzhvv-radix/blocks/nav-user';
+import { TeamSwitcher } from '@workspace/ui-mzhvv-radix/blocks/team-switcher';
 import {
   Sidebar,
   SidebarContent,
