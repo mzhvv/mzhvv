@@ -10,7 +10,9 @@ import {
 /** @type {import("prettier-plugin-tailwindcss").PluginOptions} */
 const prettierPluginTailwindOptions = {
   ...prettierPluginTailwindOptionsDefault,
-  tailwindStylesheet: 'src/styles/index.css',
+  // "@workspace/ui-shadcn-radix/globals.css" - Error: ENOENT: no such file or directory, open
+  tailwindStylesheet: '../../shadcn/radix/src/styles/globals.css',
+  // Альтернатива re-export через 'src/styles/index.ts'
 };
 
 /** @type {import("prettier").Config} */

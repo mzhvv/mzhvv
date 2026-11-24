@@ -1,4 +1,4 @@
-import { Button } from '@workspace/ui-mzhvv-radix/components/buttom';
+import { Button } from '@workspace/ui-mzhvv-radix/components/button';
 
 export default function HomePage() {
   return (
