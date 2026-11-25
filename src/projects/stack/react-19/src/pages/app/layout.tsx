@@ -19,10 +19,5 @@ export default function MainLayout() {
 }
 
 const Sidebar = ({ className, children }: { className: string; children: React.ReactNode }) => {
-  return (
-    <header className={className}>
-      {children}
-      <section></section>
-    </header>
-  );
+  return <header className={className}>{children}</header>;
 };
