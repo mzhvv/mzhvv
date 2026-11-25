@@ -1,4 +1,4 @@
-import { HelloWorld } from '@/blocks/hello-world/hello-world';
+import { HelloWorld } from '@workspace/ui-mzhvv-radix/r/blocks/hello-world/hello-world';
 
 const installCommands = [
   'pnpx shadcn add @mzhvv/hello-world',
