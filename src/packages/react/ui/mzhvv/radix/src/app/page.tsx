@@ -1,4 +1,4 @@
-import { HelloWorld } from '@workspace/ui-mzhvv-radix/blocks/hello-world/hello-world';
+import { HelloWorld } from '@/blocks/hello-world/hello-world';
 
 export default function HomePage() {
   return (
