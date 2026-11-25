@@ -16,13 +16,5 @@ export default defineConfig([
     languageOptions: {
       globals: globals.browser,
     },
-
-    // стоковые shadcn-файлы: перезаписываются CLI при каждом add,
-    // inline-disable'ы нежизнеспособны — отключаем правила на уровне конфига
-    files: ['src/components/sidebar.tsx', 'src/hooks/use-mobile.ts'],
-    rules: {
-      'react-hooks/purity': 'off',
-      'react-hooks/set-state-in-effect': 'off',
-    },
   },
 ]);
