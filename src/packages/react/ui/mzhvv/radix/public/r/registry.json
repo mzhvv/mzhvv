@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "mzhvv",
+  "homepage": "https://mzhvv.dev",
+  "items": [
+    {
+      "name": "hello-world",
+      "type": "registry:block",
+      "title": "Hello World",
+      "description": "Стартовый блок реестра mzhvv.",
+      "files": [
+        {
+          "path": "src/blocks/hello-world/hello-world.tsx",
+          "type": "registry:block"
+        }
+      ]
+    }
+  ]
+}
