@@ -30,10 +30,10 @@
     "src"
   ],
   "scripts": {
-    "dev": "next dev",
+    "dev": "pnpm build:registry && next dev --port 4000",
     "build": "pnpm build:registry && next build",
     "build:registry": "shadcn build",
-    "start": "next start",
+    "start": "next start --port 4000",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
     "check": "pnpm lint && pnpm typecheck"
