@@ -17,6 +17,11 @@ const registryConfig = `{
   }
 }`;
 
+const devCommands = [
+  'pnpm --filter @workspace/ui-mzhvv-radix exec shadcn add button',
+  'pnpm --filter @workspace/ui-mzhvv-radix exec shadcn search @shadcn -q "menu"',
+];
+
 export default function HomePage() {
   return (
     <main className="flex min-h-svh flex-col">
@@ -59,6 +64,23 @@ export default function HomePage() {
             {registryConfig}
           </pre>
           {registryCommands.map((command) => (
+            <div
+              key={command}
+              translate="no"
+              className="bg-muted text-muted-foreground rounded-lg p-4 font-mono text-xs"
+            >
+              {command}
+            </div>
+          ))}
+        </div>
+
+        <div className="flex w-full max-w-md flex-col gap-2">
+          <h2 className="text-sm font-medium text-balance">Разработка реестра</h2>
+          <p className="text-muted-foreground text-xs text-pretty">
+            Установка официальных компонентов в пакет реестра (из корня монорепо, локальная
+            версия CLI). Файлы попадают в src/r/components.
+          </p>
+          {devCommands.map((command) => (
             <div
               key={command}
               translate="no"
