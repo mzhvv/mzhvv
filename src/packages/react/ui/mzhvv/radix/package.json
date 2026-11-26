@@ -45,7 +45,7 @@
     "react-dom": ">=19.0.0"
   },
   "dependencies": {
-    "@workspace/ui-shadcn-radix": "workspace:*",
+    "@workspace/shadcn-ui-radix": "workspace:*",
     "class-variance-authority": "^0.7.1",
     "cn": "^0.5.2",
     "lucide-react": "^1.77.0",

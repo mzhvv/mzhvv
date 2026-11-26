@@ -18,7 +18,7 @@
     "skipLibCheck": true,
     "noEmit": true,
     "paths": {
-      "@workspace/ui-shadcn-base/*": ["./src/*"]
+      "@workspace/shadcn-ui-base/*": ["./src/*"]
     }
   },
   "include": ["src", "eslint.config.mjs", "prettier.config.mjs"]

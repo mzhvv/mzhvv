@@ -1,5 +1,5 @@
 import { Link, Outlet } from 'react-router';
-import { Button } from '@workspace/ui-shadcn-radix/components/button';
+import { Button } from '@workspace/shadcn-ui-radix/components/button';
 
 export default function MainLayout() {
   return (

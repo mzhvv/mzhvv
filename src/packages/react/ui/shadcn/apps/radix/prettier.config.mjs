@@ -10,7 +10,7 @@ import {
 /** @type {import("prettier-plugin-tailwindcss").PluginOptions} */
 const prettierPluginTailwindOptions = {
   ...prettierPluginTailwindOptionsDefault,
-  tailwindStylesheet: 'src/styles/globals.css',
+  tailwindStylesheet: 'src/index.css',
 };
 
 /** @type {import("prettier").Config} */

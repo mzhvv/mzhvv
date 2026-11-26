@@ -1,5 +1,5 @@
 {
-  "name": "@workspace/ui-shadcn-base",
+  "name": "@workspace/shadcn-ui-base",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -24,7 +24,7 @@
       "types": "./src/lib/utils.ts",
       "default": "./src/lib/utils.ts"
     },
-    "./globals.css": "./src/styles/globals.css"
+    "./index.css": "./src/styles/index.css"
   },
   "files": [
     "src"

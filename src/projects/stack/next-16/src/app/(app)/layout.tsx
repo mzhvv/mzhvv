@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Button } from '@workspace/ui-shadcn-base/components/button';
+import { Button } from '@workspace/shadcn-ui-base/components/button';
 
 export default function AppLayout({ children }: LayoutProps<'/'>) {
   return (
