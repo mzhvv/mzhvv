@@ -19,8 +19,10 @@
       }
     ],
     "paths": {
-      "@/components/ui/*": ["../r/components/*"],
-      "@/*": ["./app/*"]
+      "@/components/ui/*": [
+        "../../packages/react/ui/mzhvv/radix/src/r/components/*"
+      ],
+      "@/*": ["./src/*"]
     }
   },
   "include": [

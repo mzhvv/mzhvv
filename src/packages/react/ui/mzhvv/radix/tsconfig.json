@@ -24,6 +24,5 @@
       "@/*": ["./src/r/*"]
     }
   },
-  "include": ["src/r", "eslint.config.js", "prettier.config.js"],
-  "exclude": ["src/web"]
+  "include": ["src/r", "eslint.config.js", "prettier.config.js"]
 }

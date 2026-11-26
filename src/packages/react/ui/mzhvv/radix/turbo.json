@@ -3,7 +3,7 @@
   "extends": ["//"],
   "tasks": {
     "build": {
-      "outputs": ["src/web/public/r/**"]
+      "outputs": ["public/r/**"]
     }
   }
 }
