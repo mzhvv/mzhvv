@@ -1,11 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES2022",
-    "lib": [
-      "ES2022",
-      "DOM",
-      "DOM.Iterable"
-    ],
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "moduleResolution": "Bundler",
     "jsx": "react-jsx",
@@ -22,30 +18,11 @@
     "skipLibCheck": true,
     "noEmit": true,
     "incremental": true,
-    "plugins": [
-      {
-        "name": "next"
-      }
-    ],
     "paths": {
-      "@workspace/ui-mzhvv-radix/*": [
-        "./src/*"
-      ],
-      "@/*": [
-        "./src/*"
-      ]
-    },
-    "allowJs": true
+      "@workspace/ui-mzhvv-radix/*": ["./src/r/*"],
+      "@/*": ["./src/r/*"]
+    }
   },
-  "include": [
-    "src",
-    "eslint.config.js",
-    "prettier.config.js",
-    "next-env.d.ts",
-    ".next/types/**/*.ts",
-    ".next/dev/types/**/*.ts"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["src/r", "eslint.config.js", "prettier.config.js"],
+  "exclude": ["src/web"]
 }

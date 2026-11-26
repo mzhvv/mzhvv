@@ -1,6 +1,11 @@
 import { HelloWorld } from '@workspace/ui-mzhvv-radix/r/blocks/hello-world/hello-world';
 
-const installCommands = [
+const githubCommands = [
+  'pnpx shadcn add mzhvv/mzhvv/hello-world',
+  'pnpx shadcn add mzhvv/mzhvv/hello-world#v1.0.0',
+];
+
+const registryCommands = [
   'pnpx shadcn add @mzhvv/hello-world',
   'pnpm dlx shadcn add @mzhvv/hello-world',
   'npx shadcn add @mzhvv/hello-world',
@@ -26,8 +31,12 @@ export default function HomePage() {
         <HelloWorld className="w-full max-w-md" />
 
         <div className="flex w-full max-w-md flex-col gap-2">
-          <h2 className="text-sm font-medium text-balance">Установка</h2>
-          {installCommands.map((command) => (
+          <h2 className="text-sm font-medium text-balance">Установка через GitHub</h2>
+          <p className="text-muted-foreground text-xs text-pretty">
+            Репозиторий — публичный реестр, сервер не нужен. Второй вариант — с пином на
+            тег/ветку/SHA.
+          </p>
+          {githubCommands.map((command) => (
             <div
               key={command}
               translate="no"
@@ -39,13 +48,25 @@ export default function HomePage() {
         </div>
 
         <div className="flex w-full max-w-md flex-col gap-2">
-          <h2 className="text-sm font-medium text-balance">Настройка components.json</h2>
+          <h2 className="text-sm font-medium text-balance">Установка через реестр /r</h2>
+          <p className="text-muted-foreground text-xs text-pretty">
+            Сначала добавь namespace в components.json проекта:
+          </p>
           <pre
             translate="no"
             className="bg-muted text-muted-foreground overflow-x-auto rounded-lg p-4 font-mono text-xs"
           >
             {registryConfig}
           </pre>
+          {registryCommands.map((command) => (
+            <div
+              key={command}
+              translate="no"
+              className="bg-muted text-muted-foreground rounded-lg p-4 font-mono text-xs"
+            >
+              {command}
+            </div>
+          ))}
         </div>
       </section>
     </main>

@@ -4,38 +4,42 @@
   "private": true,
   "type": "module",
   "exports": {
+    "./r/*": {
+      "types": "./src/r/*.tsx",
+      "default": "./src/r/*.tsx"
+    },
     "./blocks/*": {
-      "types": "./src/blocks/*.tsx",
-      "default": "./src/blocks/*.tsx"
+      "types": "./src/r/blocks/*.tsx",
+      "default": "./src/r/blocks/*.tsx"
     },
     "./components/*": {
-      "types": "./src/components/*.tsx",
-      "default": "./src/components/*.tsx"
+      "types": "./src/r/components/*.tsx",
+      "default": "./src/r/components/*.tsx"
     },
     "./hooks/*": {
-      "types": "./src/hooks/*.ts",
-      "default": "./src/hooks/*.ts"
+      "types": "./src/r/hooks/*.ts",
+      "default": "./src/r/hooks/*.ts"
     },
     "./lib/*": {
-      "types": "./src/lib/*.ts",
-      "default": "./src/lib/*.ts"
+      "types": "./src/r/lib/*.ts",
+      "default": "./src/r/lib/*.ts"
     },
     "./utils": {
-      "types": "./src/lib/utils.ts",
-      "default": "./src/lib/utils.ts"
+      "types": "./src/r/lib/utils.ts",
+      "default": "./src/r/lib/utils.ts"
     },
-    "./globals.css": "./src/styles/globals.css"
+    "./globals.css": "./src/r/styles/globals.css"
   },
   "files": [
     "src"
   ],
   "scripts": {
-    "dev": "pnpm build:registry && next dev --port 4000",
-    "build": "pnpm build:registry && next build",
-    "build:registry": "shadcn build",
-    "start": "next start --port 4000",
+    "dev": "pnpm build:registry && next dev src/web --port 4000",
+    "build": "pnpm build:registry && next build src/web",
+    "build:registry": "shadcn build --output src/web/public/r",
+    "start": "next start src/web --port 4000",
     "lint": "eslint .",
-    "typecheck": "tsc --noEmit",
+    "typecheck": "tsc --noEmit && tsc --noEmit -p src/web",
     "check": "pnpm lint && pnpm typecheck"
   },
   "peerDependencies": {

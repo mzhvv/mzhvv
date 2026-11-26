@@ -11,7 +11,7 @@
       "dependencies": ["cn"],
       "files": [
         {
-          "path": "src/blocks/hello-world/hello-world.tsx",
+          "path": "src/r/blocks/hello-world/hello-world.tsx",
           "type": "registry:block"
         }
       ]

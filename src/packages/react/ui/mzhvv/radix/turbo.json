@@ -3,7 +3,12 @@
   "extends": ["//"],
   "tasks": {
     "build": {
-      "outputs": ["$TURBO_EXTENDS$", "public/r/**"]
+      "outputs": [
+        "src/web/.next/**",
+        "!src/web/.next/cache/**",
+        "!src/web/.next/dev/**",
+        "src/web/public/r/**"
+      ]
     }
   }
 }

@@ -1,2 +1,2 @@
-# собранный shadcn-реестр (генерируется `pnpm build`)
-public/r/
+# собранный shadcn-реестр (генерируется `pnpm build:registry`)
+src/web/public/r/
