@@ -20,7 +20,7 @@
     "incremental": true,
     "paths": {
       "@/components/ui/*": ["./src/r/components/*"],
-      "@workspace/ui-mzhvv-radix/*": ["./src/r/*"],
+      "@workspace/mzhvv-ui/*": ["./src/r/*"],
       "@/*": ["./src/r/*"]
     }
   },

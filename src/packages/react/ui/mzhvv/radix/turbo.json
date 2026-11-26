@@ -3,12 +3,7 @@
   "extends": ["//"],
   "tasks": {
     "build": {
-      "outputs": [
-        "src/web/.next/**",
-        "!src/web/.next/cache/**",
-        "!src/web/.next/dev/**",
-        "src/web/public/r/**"
-      ]
+      "outputs": ["src/web/public/r/**"]
     }
   }
 }

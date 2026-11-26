@@ -1,5 +1,5 @@
 import { Button } from '@workspace/ui-shadcn-radix/components/button';
-import { HelloWorld } from '@workspace/ui-mzhvv-radix/r/blocks/hello-world/hello-world';
+import { HelloWorld } from '@workspace/mzhvv-ui/r/blocks/hello-world/hello-world';
 
 const githubCommands = [
   'pnpx shadcn add mzhvv/mzhvv/hello-world',
@@ -19,8 +19,8 @@ const registryConfig = `{
 }`;
 
 const devCommands = [
-  'pnpm --filter @workspace/ui-mzhvv-radix exec shadcn add button',
-  'pnpm --filter @workspace/ui-mzhvv-radix exec shadcn search @shadcn -q "menu"',
+  'pnpm --filter @workspace/mzhvv-ui exec shadcn add button',
+  'pnpm --filter @workspace/mzhvv-ui exec shadcn search @shadcn -q "menu"',
 ];
 
 export default function HomePage() {

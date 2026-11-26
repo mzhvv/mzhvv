@@ -1,5 +1,5 @@
 {
-  "name": "@workspace/ui-mzhvv-radix",
+  "name": "@workspace/mzhvv-ui",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -34,12 +34,11 @@
     "src"
   ],
   "scripts": {
-    "dev": "pnpm build:registry && next dev src/web --port 4000",
-    "build": "pnpm build:registry && next build src/web",
-    "build:registry": "shadcn build --output src/web/public/r",
-    "start": "next start src/web --port 4000",
+    "dev": "pnpm --filter @workspace/mzhvv-ui-web dev",
+    "build": "shadcn build --output src/web/public/r",
+    "start": "pnpm --filter @workspace/mzhvv-ui-web start",
     "lint": "eslint .",
-    "typecheck": "tsc --noEmit && tsc --noEmit -p src/web",
+    "typecheck": "tsc --noEmit",
     "check": "pnpm lint && pnpm typecheck"
   },
   "peerDependencies": {
@@ -51,7 +50,6 @@
     "class-variance-authority": "^0.7.1",
     "cn": "^0.5.2",
     "lucide-react": "^1.77.0",
-    "next": "16.4.6",
     "radix-ui": "^1.8.1",
     "shadcn": "^4.23.0",
     "tw-animate-css": "^1.4.0"
@@ -60,7 +58,6 @@
     "@eslint/js": "^10.0.1",
     "@ianvs/prettier-plugin-sort-imports": "^4.7.0",
     "@tailwindcss/node": "^4.3.5",
-    "@tailwindcss/turbopack": "4.3.3",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "@workspace/prettier": "workspace:*",
