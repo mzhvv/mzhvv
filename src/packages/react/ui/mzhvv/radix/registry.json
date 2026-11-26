@@ -5,6 +5,7 @@
   "items": [
     {
       "name": "hello-world",
+      "registryDependencies": ["button"],
       "type": "registry:block",
       "title": "Hello World",
       "description": "Стартовый блок реестра mzhvv.",

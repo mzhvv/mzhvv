@@ -1,3 +1,4 @@
+import { Button } from '@workspace/ui-shadcn-radix/components/button';
 import { HelloWorld } from '@workspace/ui-mzhvv-radix/r/blocks/hello-world/hello-world';
 
 const githubCommands = [
@@ -31,6 +32,11 @@ export default function HomePage() {
           <p className="text-muted-foreground text-sm text-pretty">
             Реестр компонентов и блоков для shadcn CLI
           </p>
+          <Button asChild variant="outline" className="mt-2">
+            <a href="https://github.com/mzhvv/mzhvv" target="_blank" rel="noreferrer">
+              GitHub
+            </a>
+          </Button>
         </div>
 
         <HelloWorld className="w-full max-w-md" />

@@ -1,17 +1,19 @@
+import { Button } from '@/components/ui/button';
 import { cn } from 'cn';
 
 export function HelloWorld({ className }: { className?: string }) {
   return (
     <div
       className={cn(
-        'bg-card text-card-foreground flex flex-col gap-2 rounded-xl border p-6 shadow-sm',
+        'flex flex-col gap-2 rounded-xl border bg-card p-6 text-card-foreground shadow-sm',
         className,
       )}
     >
       <h3 className="text-lg font-semibold">Hello from @mzhvv</h3>
-      <p className="text-muted-foreground text-sm">
+      <p className="text-sm text-muted-foreground">
         Этот блок установлен из реестра @mzhvv через shadcn CLI.
       </p>
+      <Button>test button</Button>
     </div>
   );
 }

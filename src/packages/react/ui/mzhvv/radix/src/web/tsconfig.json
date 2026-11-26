@@ -19,6 +19,7 @@
       }
     ],
     "paths": {
+      "@/components/ui/*": ["../r/components/*"],
       "@/*": ["./app/*"]
     }
   },
