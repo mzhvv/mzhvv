@@ -14,7 +14,7 @@ const registryCommands = [
 
 const registryConfig = `{
   "registries": {
-    "@mzhvv": "https://<домен>/r/{name}.json"
+    "@mzhvv": "https://<домен>/{name}.json"
   }
 }`;
 
@@ -59,7 +59,7 @@ export default function HomePage() {
         </div>
 
         <div className="flex w-full max-w-md flex-col gap-2">
-          <h2 className="text-sm font-medium text-balance">Установка через реестр /r</h2>
+          <h2 className="text-sm font-medium text-balance">Установка через реестр</h2>
           <p className="text-xs text-pretty text-muted-foreground">
             Сначала добавь namespace в components.json проекта:
           </p>
@@ -84,7 +84,7 @@ export default function HomePage() {
           <h2 className="text-sm font-medium text-balance">Разработка реестра</h2>
           <p className="text-xs text-pretty text-muted-foreground">
             Установка официальных компонентов в пакет реестра (из корня монорепо, локальная версия
-            CLI). Файлы попадают в src/r/components.
+            CLI). Файлы попадают в src/components.
           </p>
           {devCommands.map((command) => (
             <div

@@ -5,7 +5,7 @@
   "tsx": true,
   "tailwind": {
     "config": "",
-    "css": "src/index.css",
+    "css": "../../src/styles/globals.css",
     "baseColor": "neutral",
     "cssVariables": true
   },
@@ -21,6 +21,6 @@
   "menuColor": "default",
   "menuAccent": "subtle",
   "registries": {
-    "@mzhvv": "http://127.0.0.1:4000/r/{name}.json"
+    "@mzhvv": "http://127.0.0.1:4000/{name}.json"
   }
 }

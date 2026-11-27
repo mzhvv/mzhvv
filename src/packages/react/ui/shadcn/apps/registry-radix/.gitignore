@@ -1,2 +1,2 @@
 # собранный shadcn-реестр (генерируется `pnpm build`)
-public/r/
+public/*.json

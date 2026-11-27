@@ -12,7 +12,7 @@ node_modules/
 next-env.d.ts
 *.tsbuildinfo
 coverage/
-**/public/r/
+src/packages/react/ui/shadcn/apps/registry-radix/public/*.json
 
 # lockfiles (generated, one big line)
 package-lock.yaml

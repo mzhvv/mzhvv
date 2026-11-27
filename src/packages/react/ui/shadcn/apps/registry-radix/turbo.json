@@ -3,7 +3,7 @@
   "extends": ["//"],
   "tasks": {
     "build": {
-      "outputs": ["public/r/**"]
+      "outputs": ["public/*.json"]
     },
     "dev": {
       "dependsOn": ["build"]
