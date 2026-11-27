@@ -19,9 +19,7 @@
       }
     ],
     "paths": {
-      "@/components/ui/*": [
-        "../../packages/react/ui/mzhvv/radix/src/r/components/*"
-      ],
+      "@/components/ui/*": ["../../packages/react/ui/mzhvv/radix/src/r/components/*"],
       "@/*": ["./src/*"]
     }
   },

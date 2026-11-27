@@ -111,12 +111,24 @@ importers:
 
   src/packages/react/ui/shadcn:
     dependencies:
+      '@eslint/js':
+        specifier: ^10.0.1
+        version: 10.0.1(eslint@10.15.0(jiti@2.7.0)(supports-color@7.2.0))
       '@ianvs/prettier-plugin-sort-imports':
         specifier: ^4.7.0
         version: 4.7.1(prettier@3.10.1)(supports-color@7.2.0)
       '@workspace/prettier':
         specifier: workspace:*
         version: link:../../../prettier
+      eslint:
+        specifier: ^10.14.0
+        version: 10.15.0(jiti@2.7.0)(supports-color@7.2.0)
+      eslint-plugin-react-hooks:
+        specifier: ^7.1.1
+        version: 7.1.1(eslint@10.15.0(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)
+      globals:
+        specifier: ^17.13.0
+        version: 17.14.0
       prettier:
         specifier: ^3.10.1
         version: 3.10.1
@@ -138,6 +150,9 @@ importers:
       tw-animate-css:
         specifier: ^1.4.0
         version: 1.4.0
+      typescript-eslint:
+        specifier: ^8.72.1
+        version: 8.73.0(eslint@10.15.0(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.9.3)
 
   src/packages/react/ui/shadcn/apps/base:
     dependencies:
@@ -150,6 +165,9 @@ importers:
       cn:
         specifier: ^0.5.2
         version: 0.5.2
+      lucide-react:
+        specifier: ^1.77.0
+        version: 1.77.0(@types/react@19.3.0)(react@19.3.1)
       shadcn:
         specifier: ^4.23.0
         version: 4.23.0(supports-color@7.2.0)
@@ -157,9 +175,6 @@ importers:
         specifier: ^1.4.0
         version: 1.4.0
     devDependencies:
-      '@eslint/js':
-        specifier: ^10.0.1
-        version: 10.0.1(eslint@10.15.0(jiti@2.7.0)(supports-color@7.2.0))
       '@tailwindcss/node':
         specifier: ^4.3.5
         version: 4.3.5
@@ -172,12 +187,6 @@ importers:
       eslint:
         specifier: ^10.14.0
         version: 10.15.0(jiti@2.7.0)(supports-color@7.2.0)
-      eslint-plugin-react-hooks:
-        specifier: ^7.1.1
-        version: 7.1.1(eslint@10.15.0(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)
-      globals:
-        specifier: ^17.13.0
-        version: 17.14.0
       react:
         specifier: ^19.3.1
         version: 19.3.1
@@ -190,9 +199,6 @@ importers:
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
-      typescript-eslint:
-        specifier: ^8.72.1
-        version: 8.73.0(eslint@10.15.0(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.9.3)
 
   src/packages/react/ui/shadcn/apps/radix:
     dependencies:
@@ -215,9 +221,6 @@ importers:
         specifier: ^1.4.0
         version: 1.4.0
     devDependencies:
-      '@eslint/js':
-        specifier: ^10.0.1
-        version: 10.0.1(eslint@10.15.0(jiti@2.7.0)(supports-color@7.2.0))
       '@tailwindcss/node':
         specifier: ^4.3.5
         version: 4.3.5
@@ -230,12 +233,6 @@ importers:
       eslint:
         specifier: ^10.14.0
         version: 10.15.0(jiti@2.7.0)(supports-color@7.2.0)
-      eslint-plugin-react-hooks:
-        specifier: ^7.1.1
-        version: 7.1.1(eslint@10.15.0(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)
-      globals:
-        specifier: ^17.13.0
-        version: 17.14.0
       react:
         specifier: ^19.3.1
         version: 19.3.1
@@ -248,9 +245,6 @@ importers:
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
-      typescript-eslint:
-        specifier: ^8.72.1
-        version: 8.73.0(eslint@10.15.0(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.9.3)
 
   src/projects/mzhvv-ui:
     dependencies:

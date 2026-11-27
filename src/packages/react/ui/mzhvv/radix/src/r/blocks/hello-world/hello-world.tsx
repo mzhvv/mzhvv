@@ -1,5 +1,5 @@
-import { Button } from '@/components/ui/button';
 import { cn } from 'cn';
+import { Button } from '@/components/ui/button';
 
 export function HelloWorld({ className }: { className?: string }) {
   return (

@@ -1,5 +1,5 @@
-import { Button } from '@workspace/shadcn-ui-radix/components/button';
 import { HelloWorld } from '@workspace/mzhvv-ui/r/blocks/hello-world/hello-world';
+import { Button } from '@workspace/shadcn-ui-radix/components/button';
 
 const githubCommands = [
   'pnpx shadcn add mzhvv/mzhvv/hello-world',
@@ -29,7 +29,7 @@ export default function HomePage() {
       <section className="flex grow flex-col items-center justify-center gap-8 p-8">
         <div className="flex flex-col items-center gap-2 text-center">
           <h1 className="text-2xl font-semibold text-balance">mzhvv UI</h1>
-          <p className="text-muted-foreground text-sm text-pretty">
+          <p className="text-sm text-pretty text-muted-foreground">
             Реестр компонентов и блоков для shadcn CLI
           </p>
           <Button asChild variant="outline" className="mt-2">
@@ -43,7 +43,7 @@ export default function HomePage() {
 
         <div className="flex w-full max-w-md flex-col gap-2">
           <h2 className="text-sm font-medium text-balance">Установка через GitHub</h2>
-          <p className="text-muted-foreground text-xs text-pretty">
+          <p className="text-xs text-pretty text-muted-foreground">
             Репозиторий — публичный реестр, сервер не нужен. Второй вариант — с пином на
             тег/ветку/SHA.
           </p>
@@ -51,7 +51,7 @@ export default function HomePage() {
             <div
               key={command}
               translate="no"
-              className="bg-muted text-muted-foreground rounded-lg p-4 font-mono text-xs"
+              className="rounded-lg bg-muted p-4 font-mono text-xs text-muted-foreground"
             >
               {command}
             </div>
@@ -60,12 +60,12 @@ export default function HomePage() {
 
         <div className="flex w-full max-w-md flex-col gap-2">
           <h2 className="text-sm font-medium text-balance">Установка через реестр /r</h2>
-          <p className="text-muted-foreground text-xs text-pretty">
+          <p className="text-xs text-pretty text-muted-foreground">
             Сначала добавь namespace в components.json проекта:
           </p>
           <pre
             translate="no"
-            className="bg-muted text-muted-foreground overflow-x-auto rounded-lg p-4 font-mono text-xs"
+            className="overflow-x-auto rounded-lg bg-muted p-4 font-mono text-xs text-muted-foreground"
           >
             {registryConfig}
           </pre>
@@ -73,7 +73,7 @@ export default function HomePage() {
             <div
               key={command}
               translate="no"
-              className="bg-muted text-muted-foreground rounded-lg p-4 font-mono text-xs"
+              className="rounded-lg bg-muted p-4 font-mono text-xs text-muted-foreground"
             >
               {command}
             </div>
@@ -82,15 +82,15 @@ export default function HomePage() {
 
         <div className="flex w-full max-w-md flex-col gap-2">
           <h2 className="text-sm font-medium text-balance">Разработка реестра</h2>
-          <p className="text-muted-foreground text-xs text-pretty">
-            Установка официальных компонентов в пакет реестра (из корня монорепо, локальная
-            версия CLI). Файлы попадают в src/r/components.
+          <p className="text-xs text-pretty text-muted-foreground">
+            Установка официальных компонентов в пакет реестра (из корня монорепо, локальная версия
+            CLI). Файлы попадают в src/r/components.
           </p>
           {devCommands.map((command) => (
             <div
               key={command}
               translate="no"
-              className="bg-muted text-muted-foreground rounded-lg p-4 font-mono text-xs"
+              className="rounded-lg bg-muted p-4 font-mono text-xs text-muted-foreground"
             >
               {command}
             </div>
