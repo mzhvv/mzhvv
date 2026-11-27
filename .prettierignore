@@ -12,6 +12,7 @@ node_modules/
 next-env.d.ts
 *.tsbuildinfo
 coverage/
+**/public/r/
 
 # lockfiles (generated, one big line)
 package-lock.yaml

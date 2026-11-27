@@ -2,5 +2,5 @@
   "$schema": "https://ui.shadcn.com/schema/registry.json",
   "name": "mzhvv",
   "homepage": "https://github.com/mzhvv/mzhvv",
-  "include": ["src/packages/react/ui/mzhvv/radix/registry.json"]
+  "include": ["src/packages/react/ui/shadcn/apps/mzhvv/radix/registry.json"]
 }

@@ -4,6 +4,9 @@
   "tasks": {
     "build": {
       "outputs": ["public/r/**"]
+    },
+    "dev": {
+      "dependsOn": ["build"]
     }
   }
 }
