@@ -19,5 +19,8 @@
   },
   "rtl": false,
   "menuColor": "default",
-  "menuAccent": "subtle"
+  "menuAccent": "subtle",
+  "registries": {
+    "@mzhvv": "http://127.0.0.1:4001/base/{name}.json"
+  }
 }

@@ -21,6 +21,6 @@
   "menuColor": "default",
   "menuAccent": "subtle",
   "registries": {
-    "@mzhvv": "http://127.0.0.1:4000/{name}.json"
+    "@mzhvv": "http://127.0.0.1:4001/radix/{name}.json"
   }
 }

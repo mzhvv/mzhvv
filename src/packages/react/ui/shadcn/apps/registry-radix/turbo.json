@@ -4,9 +4,6 @@
   "tasks": {
     "build": {
       "outputs": ["public/*.json"]
-    },
-    "dev": {
-      "dependsOn": ["build"]
     }
   }
 }
