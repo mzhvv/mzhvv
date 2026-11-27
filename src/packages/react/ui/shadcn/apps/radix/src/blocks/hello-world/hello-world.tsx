@@ -1,5 +1,5 @@
 import { cn } from 'cn';
-import { Button } from 'src/components/button';
+import { Button } from '@workspace/shadcn-ui-radix/components/button';
 
 export function HelloWorld({ className }: { className?: string }) {
   return (

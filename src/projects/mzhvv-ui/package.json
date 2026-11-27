@@ -14,7 +14,7 @@
     "node": ">=20.19"
   },
   "dependencies": {
-    "@workspace/mzhvv-ui": "workspace:*",
+    "@workspace/shadcn-ui": "workspace:*",
     "@workspace/shadcn-ui-radix": "workspace:*",
     "cn": "^0.5.2",
     "next": "16.4.6",

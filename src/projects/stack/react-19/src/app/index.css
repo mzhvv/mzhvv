@@ -1,7 +1,5 @@
-@import '@workspace/shadcn-ui-radix/index.css';
+@import '@workspace/shadcn-ui/globals.css';
 
-/* шрифты приложения (fontsource, см. @shared/lib/fonts);
-   остальная тема — из index.css пакета */
 :root {
   --font-sans: 'Inter Variable', ui-sans-serif, system-ui, sans-serif;
   --font-mono: 'JetBrains Mono Variable', ui-monospace, monospace;

@@ -10,13 +10,13 @@ import {
   DropdownMenuSeparator,
   DropdownMenuShortcut,
   DropdownMenuTrigger,
-} from 'src/components/dropdown-menu';
+} from '@workspace/shadcn-ui-radix/components/dropdown-menu';
 import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
   useSidebar,
-} from 'src/components/sidebar';
+} from '@workspace/shadcn-ui-radix/components/sidebar';
 
 export function TeamSwitcher({
   teams,

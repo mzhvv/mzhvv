@@ -1,7 +1,7 @@
 'use client';
 
 import { ChevronRight, type LucideIcon } from 'lucide-react';
-import { Collapsible, CollapsibleContent, CollapsibleTrigger } from 'src/components/collapsible';
+import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@workspace/shadcn-ui-radix/components/collapsible';
 import {
   SidebarGroup,
   SidebarGroupLabel,
@@ -11,7 +11,7 @@ import {
   SidebarMenuSub,
   SidebarMenuSubButton,
   SidebarMenuSubItem,
-} from 'src/components/sidebar';
+} from '@workspace/shadcn-ui-radix/components/sidebar';
 
 export function NavMain({
   items,

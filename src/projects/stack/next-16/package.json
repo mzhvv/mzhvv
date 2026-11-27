@@ -14,6 +14,7 @@
     "node": ">=20.19"
   },
   "dependencies": {
+    "@workspace/shadcn-ui": "workspace:*",
     "@workspace/shadcn-ui-base": "workspace:*",
     "cn": "^0.5.2",
     "next": "16.4.6",

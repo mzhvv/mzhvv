@@ -19,7 +19,7 @@ import {
   SidebarFooter,
   SidebarHeader,
   SidebarRail,
-} from 'src/components/sidebar';
+} from '@workspace/shadcn-ui-radix/components/sidebar';
 import { NavMain } from './nav-main';
 import { NavProjects } from './nav-projects';
 import { NavUser } from './nav-user';

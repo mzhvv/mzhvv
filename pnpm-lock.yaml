@@ -248,9 +248,9 @@ importers:
 
   src/projects/mzhvv-ui:
     dependencies:
-      '@workspace/mzhvv-ui':
+      '@workspace/shadcn-ui':
         specifier: workspace:*
-        version: link:../../packages/react/ui/mzhvv/radix
+        version: link:../../packages/react/ui/shadcn
       '@workspace/shadcn-ui-radix':
         specifier: workspace:*
         version: link:../../packages/react/ui/shadcn/apps/radix
@@ -306,6 +306,9 @@ importers:
 
   src/projects/stack/next-16:
     dependencies:
+      '@workspace/shadcn-ui':
+        specifier: workspace:*
+        version: link:../../../packages/react/ui/shadcn
       '@workspace/shadcn-ui-base':
         specifier: workspace:*
         version: link:../../../packages/react/ui/shadcn/apps/base
@@ -370,6 +373,9 @@ importers:
       '@tailwindcss/vite':
         specifier: ^4.3.5
         version: 4.3.5(vite@8.3.8(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0))
+      '@workspace/shadcn-ui':
+        specifier: workspace:*
+        version: link:../../../packages/react/ui/shadcn
       '@workspace/shadcn-ui-radix':
         specifier: workspace:*
         version: link:../../../packages/react/ui/shadcn/apps/radix

@@ -1,4 +1,4 @@
-import { HelloWorld } from '@workspace/mzhvv-ui/r/blocks/hello-world/hello-world';
+import { HelloWorld } from '@workspace/shadcn-ui-radix/blocks/hello-world/hello-world';
 import { Button } from '@workspace/shadcn-ui-radix/components/button';
 
 const githubCommands = [

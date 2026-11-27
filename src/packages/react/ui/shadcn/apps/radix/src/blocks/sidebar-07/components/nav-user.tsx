@@ -1,7 +1,7 @@
 'use client';
 
 import { BadgeCheck, Bell, ChevronsUpDown, CreditCard, LogOut, Sparkles } from 'lucide-react';
-import { Avatar, AvatarFallback, AvatarImage } from 'src/components/avatar';
+import { Avatar, AvatarFallback, AvatarImage } from '@workspace/shadcn-ui-radix/components/avatar';
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -10,13 +10,13 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from 'src/components/dropdown-menu';
+} from '@workspace/shadcn-ui-radix/components/dropdown-menu';
 import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
   useSidebar,
-} from 'src/components/sidebar';
+} from '@workspace/shadcn-ui-radix/components/sidebar';
 
 export function NavUser({
   user,

@@ -5,19 +5,19 @@ import { cn } from 'cn';
 import { PanelLeftIcon } from 'lucide-react';
 import { Slot } from 'radix-ui';
 import * as React from 'react';
-import { Button } from 'src/components/button';
-import { Input } from 'src/components/input';
-import { Separator } from 'src/components/separator';
+import { Button } from '@workspace/shadcn-ui-radix/components/button';
+import { Input } from '@workspace/shadcn-ui-radix/components/input';
+import { Separator } from '@workspace/shadcn-ui-radix/components/separator';
 import {
   Sheet,
   SheetContent,
   SheetDescription,
   SheetHeader,
   SheetTitle,
-} from 'src/components/sheet';
-import { Skeleton } from 'src/components/skeleton';
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from 'src/components/tooltip';
-import { useIsMobile } from 'src/hooks/use-mobile';
+} from '@workspace/shadcn-ui-radix/components/sheet';
+import { Skeleton } from '@workspace/shadcn-ui-radix/components/skeleton';
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@workspace/shadcn-ui-radix/components/tooltip';
+import { useIsMobile } from '@workspace/shadcn-ui-radix/hooks/use-mobile';
 
 const SIDEBAR_COOKIE_NAME = 'sidebar_state';
 const SIDEBAR_COOKIE_MAX_AGE = 60 * 60 * 24 * 7;

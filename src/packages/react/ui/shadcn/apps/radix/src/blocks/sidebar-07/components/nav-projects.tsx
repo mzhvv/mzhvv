@@ -7,7 +7,7 @@ import {
   DropdownMenuItem,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from 'src/components/dropdown-menu';
+} from '@workspace/shadcn-ui-radix/components/dropdown-menu';
 import {
   SidebarGroup,
   SidebarGroupLabel,
@@ -16,7 +16,7 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
   useSidebar,
-} from 'src/components/sidebar';
+} from '@workspace/shadcn-ui-radix/components/sidebar';
 
 export function NavProjects({
   projects,
