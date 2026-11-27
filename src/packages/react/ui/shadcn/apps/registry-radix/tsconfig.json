@@ -1,15 +1,14 @@
 {
-  "extends": "../../../tsconfig.json",
+  "extends": "../../tsconfig.json",
   "compilerOptions": {
     "noEmit": true,
     "incremental": true,
     "paths": {
-      "@/components/ui/*": ["../../radix/src/components/*"],
-      "@/hooks/*": ["../../radix/src/hooks/*"],
-      "@/lib/*": ["../../radix/src/lib/*"],
-      "@/blocks/*": ["./src/r/blocks/*"],
-      "@/styles/*": ["./src/r/styles/*"]
+      "@/components/ui/*": ["../radix/src/components/*"],
+      "@/hooks/*": ["../radix/src/hooks/*"],
+      "@/lib/*": ["../radix/src/lib/*"],
+      "@/blocks/*": ["./src/r/blocks/*"]
     }
   },
-  "include": ["src/r", "eslint.config.js", "prettier.config.js", "scripts"]
+  "include": ["src/r", "eslint.config.js", "scripts"]
 }

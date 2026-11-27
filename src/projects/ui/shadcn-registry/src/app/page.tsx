@@ -19,8 +19,8 @@ const registryConfig = `{
 }`;
 
 const devCommands = [
-  'pnpm --filter @workspace/mzhvv-ui exec shadcn add button',
-  'pnpm --filter @workspace/mzhvv-ui exec shadcn search @shadcn -q "menu"',
+  'pnpm --filter @workspace/shadcn-ui-registry-radix exec shadcn add button',
+  'pnpm --filter @workspace/shadcn-ui-registry-radix exec shadcn search @shadcn -q "menu"',
 ];
 
 export default function HomePage() {
