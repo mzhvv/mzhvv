@@ -1,4 +1,4 @@
-import { HelloWorld } from '@workspace/shadcn-ui-radix/blocks/hello-world/hello-world';
+import { TestBlocks } from '@workspace/shadcn-ui-registry-radix/blocks/test-block';
 
 export default function HomePage() {
   return (
@@ -8,11 +8,7 @@ export default function HomePage() {
           <h1 className="text-balance">react-19</h1>
         </div>
         <div>
-          <span>
-            этот блок напрямую наследуеться из
-            '@workspace/shadcn-ui-radix/blocks/hello-world/hello-world'!!!
-          </span>
-          <HelloWorld />
+          <TestBlocks text='этот блок напрямую наследуеться из "@workspace/shadcn-ui-radix/blocks/hello-world/hello-world"!!!' />
         </div>
       </section>
     </main>

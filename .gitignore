@@ -55,3 +55,7 @@ pnpm-debug.log*
 # AGENTS
 .agents
 skills-lock.json
+
+#
+
+**/.archive_-_do_not_touch

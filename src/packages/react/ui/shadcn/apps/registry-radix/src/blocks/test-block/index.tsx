@@ -1,7 +1,7 @@
 import { cn } from 'cn';
 import { Button } from '@/components/ui/button';
 
-export function HelloWorld({ className }: { className?: string }) {
+export function TestBlock({ text, className }: { text?: string; className?: string }) {
   return (
     <div
       className={cn(
@@ -9,10 +9,8 @@ export function HelloWorld({ className }: { className?: string }) {
         className,
       )}
     >
-      <h3 className="text-lg font-semibold">Hello from @mzhvv</h3>
-      <p className="text-sm text-muted-foreground">
-        Этот блок установлен из реестра @mzhvv через shadcn CLI.
-      </p>
+      <h3 className="text-lg font-semibold">test-blocks</h3>
+      <p>{text}</p>
       <Button>test button</Button>
     </div>
   );

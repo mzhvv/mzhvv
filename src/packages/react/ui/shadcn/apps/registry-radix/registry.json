@@ -4,15 +4,15 @@
   "homepage": "https://mzhvv.dev",
   "items": [
     {
-      "name": "hello-world",
+      "name": "test-block",
       "registryDependencies": ["button"],
       "type": "registry:block",
-      "title": "Hello World",
-      "description": "Стартовый блок реестра mzhvv.",
+      "title": "Test Block",
+      "description": "...",
       "dependencies": ["cn"],
       "files": [
         {
-          "path": "src/blocks/hello-world/hello-world.tsx",
+          "path": "src/blocks/test-block/index.tsx",
           "type": "registry:block"
         }
       ]
