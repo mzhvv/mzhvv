@@ -23,5 +23,30 @@
     "react-dom": "^19.3.1",
     "tailwindcss": "4.3.3",
     "typescript": "^5.9.3"
+  },
+  "files": [
+    "src"
+  ],
+  "exports": {
+    "./blocks/*": {
+      "types": "./src/blocks/*.tsx",
+      "default": "./src/blocks/*.tsx"
+    },
+    "./components/*": {
+      "types": "./src/components/*.tsx",
+      "default": "./src/components/*.tsx"
+    },
+    "./hooks/*": {
+      "types": "./src/hooks/*.ts",
+      "default": "./src/hooks/*.ts"
+    },
+    "./lib/*": {
+      "types": "./src/lib/*.ts",
+      "default": "./src/lib/*.ts"
+    },
+    "./utils": {
+      "types": "./src/lib/utils.ts",
+      "default": "./src/lib/utils.ts"
+    }
   }
 }

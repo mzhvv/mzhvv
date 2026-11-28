@@ -55,6 +55,3 @@ pnpm-debug.log*
 # AGENTS
 .agents
 skills-lock.json
-
-#
-.pnpm-store

@@ -20,6 +20,7 @@
     "@tailwindcss/vite": "^4.3.5",
     "@workspace/shadcn-ui": "workspace:*",
     "@workspace/shadcn-ui-radix": "workspace:*",
+    "@workspace/shadcn-ui-registry-radix": "workspace:*",
     "class-variance-authority": "^0.7.1",
     "cn": "^0.5.2",
     "lucide-react": "^1.77.0",

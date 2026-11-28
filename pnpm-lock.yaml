@@ -285,6 +285,9 @@ importers:
       '@workspace/shadcn-ui-radix':
         specifier: workspace:*
         version: link:../../../packages/react/ui/shadcn/apps/radix
+      '@workspace/shadcn-ui-registry-radix':
+        specifier: workspace:*
+        version: link:../../../packages/react/ui/shadcn/apps/registry-radix
       class-variance-authority:
         specifier: ^0.7.1
         version: 0.7.1
