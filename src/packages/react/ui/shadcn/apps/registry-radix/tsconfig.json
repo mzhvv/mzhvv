@@ -1,8 +1,10 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
+    "noEmit": true,
+    "incremental": true,
     "paths": {
-      "@workspace/shadcn-ui-registry-radix/*": ["./src/*"]
+      "@/*": ["./src/*"]
     }
   },
   "include": ["src", "eslint.config.js"]
