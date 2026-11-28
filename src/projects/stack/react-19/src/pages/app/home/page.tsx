@@ -8,7 +8,7 @@ export default function HomePage() {
           <h1 className="text-balance">react-19</h1>
         </div>
         <div>
-          <TestBlock text='этот блок напрямую наследуеться из "@workspace/shadcn-ui-radix/blocks/hello-world/hello-world"!!!' />
+          <TestBlock text='Наследуется из "@workspace/shadcn-ui-radix/blocks/hello-world/hello-world"!!!' />
         </div>
       </section>
     </main>

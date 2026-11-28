@@ -1,5 +1,5 @@
 import { cn } from 'cn';
-import { Button } from '@/components/ui/button';
+import { Button } from '@workspace/shadcn-ui-radix/components/button';
 
 export function TestBlock({ text, className }: { text?: string; className?: string }) {
   return (
@@ -10,7 +10,7 @@ export function TestBlock({ text, className }: { text?: string; className?: stri
       )}
     >
       <h3 className="text-lg font-semibold">test-blocks</h3>
-      <p>{text}</p>
+      <span>{text}</span>
       <Button>test button</Button>
     </div>
   );
