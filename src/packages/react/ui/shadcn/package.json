@@ -3,10 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "scripts": {
-    "build": "pnpm --filter \"@workspace/shadcn-ui-registry-*\" build && node scripts/collect.mjs",
-    "dev": "node scripts/serve.mjs"
-  },
   "dependencies": {
     "@eslint/js": "^10.0.1",
     "@ianvs/prettier-plugin-sort-imports": "^4.7.0",
