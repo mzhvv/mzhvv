@@ -1,9 +1,0 @@
-{
-  "$schema": "https://v2-11-13.turborepo.dev/schema.json",
-  "extends": ["//"],
-  "tasks": {
-    "build": {
-      "outputs": ["public/*.json"]
-    }
-  }
-}

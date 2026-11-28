@@ -29,8 +29,12 @@
   ],
   "exports": {
     "./blocks/*": {
-      "types": "./src/blocks/*.tsx",
-      "default": "./src/blocks/*.tsx"
+      "types": "./src/blocks/*/index.tsx",
+      "default": "./src/blocks/*/index.tsx"
+    },
+    "./blocks/*/index": {
+      "types": "./src/blocks/*/index.tsx",
+      "default": "./src/blocks/*/index.tsx"
     },
     "./components/*": {
       "types": "./src/components/*.tsx",
